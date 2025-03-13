@@ -1,0 +1,49 @@
+# Variáveis, Tipo Primitivos e Operadores
+
+## Variáveis
+
+São elementos fundamentais na programação. Elas são usadas para armazenar e manipular dados dentro de um programa.
+
+![Captura de tela 2025-03-13 15.57.18](C:\Users\cabra\Dropbox\Capturas de tela\Captura de tela 2025-03-13 15.57.18.png)
+
+- inteiro > aceita números dentro do conjunto dos números inteiros (positivo e negativo)
+- real > aceita números dentro do conjunto dos número reais (inteiro e os decimais)
+- caracter > representa um único caracter ('a', 'b', '2')
+- cadeia > representa um conjunto de caracteres. ("Maria", "Pedro")
+- logico > verdadeiro (true) ou falso (false)
+
+Após declaradas, as variáveis podem receber valores usando o operador de atribuição (=)
+
+![Captura de tela 2025-03-13 16.00.33](C:\Users\cabra\Dropbox\Capturas de tela\Captura de tela 2025-03-13 16.00.33.png)
+
+1º passo: Declaras as variáveis
+
+2º passo: Atribuir valor (ou pegar eles informados pelo usuário)
+
+## Operadores
+
+operadores são símbolos especiais que permitem realizar operações sobre variáveis e valores.
+
+- Operadores Aritméticos: utilizados para realizar operações matemáticas.
+  - (+) Adição
+  - (-) Subtração
+  - (*) multiplicação
+  - (/) divisão
+- Operadores Relacionais: Utilizados para comparar valores.
+  - (>) Maior que
+  - (<) Menor que
+  - (==) igual à
+  - (!=) diferente de
+- Operadores Lógicos: Utilizados para combinar expressões lógicas.
+  - (E) e lógico
+  - (OU) ou lógico
+  - (NAO) negação lógica
+
+![Captura de tela 2025-03-13 16.12.12](C:\Users\cabra\Dropbox\Capturas de tela\Captura de tela 2025-03-13 16.12.12.png)
+
+
+
+## Comandos de Entrada e Saída
+
+- Escreva - Usado para exibir dados na tela para o usuário (uma saida)
+- Leia - Usado para ler dados fornecidos pelo usuário a partir do teclado. (uma entrada)

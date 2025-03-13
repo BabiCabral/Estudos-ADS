@@ -1,0 +1,43 @@
+# Sistema Decimal
+
+**Existem 10 tipos de pessoas no mundo: aquelas que conhecem código binário e aquelas que não conhecem.**
+
+## Sistema de Numeração
+
+![Captura de tela 2025-03-11 15.19.18](C:\Users\cabra\Dropbox\Capturas de tela\Captura de tela 2025-03-11 15.19.18.png)
+
+Depende da codificação utilizada!
+
+### Um sistema de numeração é um conjunto de simbolos que representam quantidades.
+
+- Representam um conjunto útil de numeros (inteiros, racionais, etc)
+- Cada número tem representação única (ou pelo menos padronizada)
+- Refletem uma estrutura algébrica e aritmética
+
+### Sistemas posicionais são os mais utilizados!
+
+- Valor Real depende da posição do símbolo
+- Ex: 4321 é diferente de 1234
+- 45,60 é diferente de 456,0
+
+#### Exemplos:
+
+- Decimal: 2019
+- Romano MMXIX
+- Binário: 00111 1110 0011
+- Hexa: 0x7E3
+- Dia-a-dia: Duodecimal: 1 dúzia, 1pé = 12 polegadas
+- E o tempo, como é medido?
+  - Abaixo de 1seg e acima de 1ano: Decimal
+  - Segundos/minuto e minutos/hora: Sexagesimal
+  - Horas/Dias e meses/ano: Duodecimal (12 meses  e 2 x 12h em um dia)
+  - Dias/mês: 30/313/28/29... (ou seja, um caos kk)
+
+
+
+## Sistema Decimal
+
+Sistema de numeração mais difundido. Desenvolveu-se naturalmente em várias culturas, por ter usado como base para medir os dedos das mãos (10 dedos). É composto por 10 numerais também chamadosde símbolos ou dígitos: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9.
+
+![sistema decimal](C:\Users\cabra\Downloads\sistema decimal.png)
+

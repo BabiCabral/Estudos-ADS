@@ -1,0 +1,38 @@
+# Lógica de Programação
+
+### Primeiro precisamos entender o problema para depois resolvê-lo.
+
+#### Existe lógica no dia-a-dia? Sim! Como exemplos temos:
+
+- Seguir receitas de comida ou bebida
+- Escolher roupas do dia
+- Planejar um trajeto no Waze (otimização de caminhos)
+
+![Captura de tela 2025-03-13 14.57.27](C:\Users\cabra\Dropbox\Capturas de tela\Captura de tela 2025-03-13 14.57.27.png)
+
+## O que é um Algoritmo?
+
+Um algoritmo é uma sequência de passos para resolver um problema ou realizar uma tarefa. (Podemos dizer que é uma receita, um passo-a-passo. Como a ficha técnica de uma bebida).
+
+Seus **principais elementos** são:
+
+- Entrada: Informações que o algoritmo recebe (como os ingredientes)
+- Processamento: As regras ou operações que serão aplicadas
+- Saída: O resultado final do algortimo.
+
+Associando à criação de um drink/bebida: **a entrada** seria os <u>ingredientes e instrumentos</u> que o barista vai receber para poder trabalhar, **o processamento** seria o <u>passo-a-passo da ficha técnica</u>  que ele vai seguir para realizar a bebida, e **a saída** seria <u>o drink que o cliente irá receber.</u>
+
+Agora, um exemplo com Calculo de Desconto em uma compra:
+
+- Entrada: informar o valor do produto e a porcentagem do desconto
+- Processamento: calcular o valor final aplicando o desconto
+- Saída: o valor final com desconto é exibido ao usuário
+
+![Captura de tela 2025-03-13 15.13.36](C:\Users\cabra\Dropbox\Capturas de tela\Captura de tela 2025-03-13 15.13.36.png)
+
+![Captura de tela 2025-03-13 15.17.11](C:\Users\cabra\Dropbox\Capturas de tela\Captura de tela 2025-03-13 15.17.11.png)
+
+#### **O objetivo fundamental de toda programação é construir algoritmos para solucionar um problema**
+
+![Captura de tela 2025-03-13 15.26.24](C:\Users\cabra\Dropbox\Capturas de tela\Captura de tela 2025-03-13 15.26.24.png)
+
