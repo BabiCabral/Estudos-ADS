@@ -1,0 +1,48 @@
+.cartao {
+    width: 250px;
+    padding: 20px;
+    margin: 50px auto; /* Centraliza na tela */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.produto-img {
+    display: block; /* Garante que a imagem fique sozinha na linha */
+    margin: 0 auto; /* Centraliza a imagem */
+    border-radius: 10px;
+}
+
+.produto-nome {
+    display: block; /* Cada nome de produto ocupa uma linha separada */
+    margin: 10px 0;
+}
+
+.produto-preco {
+    display: inline; /* Mantém o preço e o desconto na mesma linha */
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+}
+
+.produto-desconto {
+    display: inline; /* Fica ao lado do preço */
+    background-color: yellow;
+    padding: 2px 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.produto-descricao {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.esgotado {
+    display: none; /* Essa mensagem está oculta por padrão */
+    color: red;
+    font-weight: bold;
+}
