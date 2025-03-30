@@ -1,0 +1,29 @@
+div {
+    background-color: red;
+    border: 1px solid black;
+    width: 300px;
+}
+
+img {
+    height: 300px;
+}
+
+.texto-primario {
+    color: green;
+    border: 1px dotted black;
+}
+
+#titulo-primario {
+    color: chocolate;
+    font-size: 25px;
+}
+
+.titulo-prod {
+    color: violet;
+    font-size: 25px;
+}
+
+p {
+    color: gray;
+    border: 1px dotted black;
+}
