@@ -1,14 +1,14 @@
 programa
 {
 	funcao inicio()
-	{	
+	{	
 		inteiro IdadeF=0, IdadeM=0, GeneroF=0, GeneroM=0, MaisVelha=0, MaiorQueVinte=0
 		real MediaIdade, SomaIdadeF=0, SomaIdadeM=0
 		caracter Genero
 		
 		para (inteiro cont=1; cont<=5; cont++){
 			
-			escreva("Insira seu gênero (f/m): ")
+			escreva("Insira seu gênero (F/M): ")
 			leia(Genero)
 			
 			se(Genero=='f' ou Genero=='F'){
@@ -31,6 +31,11 @@ programa
 				leia(IdadeM)
 				SomaIdadeM = SomaIdadeM + IdadeM
 			}
+
+			senao {
+				escreva("Opção Inválida. Digite 'F' para Feminino ou 'M' para Masculino.\n")
+				cont--
+			}
 		}
 		MediaIdade = (SomaIdadeF+SomaIdadeM)/5
 		
@@ -46,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 680; 
+ * @POSICAO-CURSOR = 778; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
