@@ -2,8 +2,8 @@ programa
 {
 //10. Controle de Presença em Curso Gratuito de Tecnologia
 //Um centro comunitário está oferecendo um curso gratuito de introdução à tecnologia,
-//com duração total de 6 encontros presenciais. Para receber o certificado de conclusão,
-//cada aluno precisa ter participado de pelo menos 4 encontros.
+//com duração total de 10 encontros presenciais. Para receber o certificado de conclusão,
+//cada aluno precisa ter participado de pelo menos 6 encontros.
 //Você foi convidado a desenvolver um programa que ajude os organizadores a
 //controlar a presença dos alunos e a verificar quem tem direito ao certificado.
 //O programa deve:
@@ -25,12 +25,12 @@ programa
 		leia(QuantAlunos)
 		
 		para (inteiro cont=1; cont<=QuantAlunos; cont++){
-			escreva("\nNome do Aluno: ")
+			escreva("\nNome do Aluno: ")
 			leia(Nome)
 			escreva("Quantidade de presença nos encontros: ")
 			leia(Presenca)
 
-			se (Presenca >=4 ){
+			se (Presenca >=6 ){
 				ListaPresenca = ListaPresenca + Nome + "\n"
 				QuantAprov++
 			}
@@ -45,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1338; 
+ * @POSICAO-CURSOR = 1205; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
