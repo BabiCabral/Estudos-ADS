@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flex vs Grid Interativo</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Display Flex vs Grid</h1>
+    <p>Experimente as propriedades abaixo e veja o que muda!</p>
+  </header>
+
+  <section class="controls">
+    <label for="displaySelect">Tipo de Display:</label>
+    <select id="displaySelect">
+      <option value="flex">Flex</option>
+      <option value="grid">Grid</option>
+    </select>
+
+    <label for="propertySelect">Propriedade:</label>
+    <select id="propertySelect">
+      <!-- preenchido via JS com base no display -->
+    </select>
+
+    <label for="valueSelect">Valor:</label>
+    <select id="valueSelect">
+      <!-- preenchido via JS com base na propriedade -->
+    </select>
+  </section>
+
+  <section class="container" id="layoutContainer">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+  </section>
+
+  <footer>
+    <p>Aula 7 — Display Flex e Grid</p>
+  </footer>
+</body>
+</html>
