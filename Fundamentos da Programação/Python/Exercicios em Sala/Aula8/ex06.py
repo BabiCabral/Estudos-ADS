@@ -10,6 +10,6 @@ soma = 0
 
 for t in range(4):
     for r in range(5):
-        matriz[t].append(int(input(f"Quantos refrigerantes foram vendidos no {t+1} Semetre na Regiâo {r+1}? ")))
+        matriz[t].append(int(input(f"Quantos refrigerantes foram vendidos no {t+1} Trimestre na Regiâo {r+1}? ")))
         soma+= matriz[t][r]
 print(f"A quantidade refrigerante vendidas no país é de: {soma}")
